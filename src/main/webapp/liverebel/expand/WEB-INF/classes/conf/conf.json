@@ -1,0 +1,5 @@
+{
+  "db.connection":              "jdbc:mysql://$LR{db.host}/$LR{db.name}",
+  "db.username":                "$LR{db.user.name}",
+  "db.password":                "$LR{db.user.password}"
+}
