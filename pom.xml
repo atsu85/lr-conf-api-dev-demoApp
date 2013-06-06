@@ -7,8 +7,22 @@
   <packaging>war</packaging>
 
   <properties>
-
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <contributors>
+    <contributor>
+      <name>Ats Uiboupin</name>
+    </contributor>
+  </contributors>
+
+  <repositories>
+    <repository>
+      <id>zt-releases</id>
+      <name>ZeroTurnaround Public Repository</name>
+      <url>http://repos.zeroturnaround.com/nexus/content/repositories/zt-public</url>
+    </repository>
+  </repositories>
 
   <dependencies>
     <dependency>
